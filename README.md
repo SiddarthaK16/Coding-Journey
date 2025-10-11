@@ -11,6 +11,8 @@ C/ – Programs, practice exercises, and small projects
 
 C++/ – Practice code, snippets, and experiments
 
+HTML - Exploring the start and literally making baby steps towards web page designing
+
 (Future additions: other languages, projects)
 
 ⚡ How I Use This Repo
