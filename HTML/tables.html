@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman Student Table</title>
+    <style>
+        /* Page background & font */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            /* Dark Gotham vibe */
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Table styling */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 20px rgba(255, 255, 0, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ffeb3b;
+            /* Bat-signal yellow */
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px #000;
+        }
+
+        thead {
+            background-color: #111;
+            color: #ffeb3b;
+        }
+
+        thead th {
+            padding: 12px 20px;
+            text-align: center;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        tbody tr {
+            background: linear-gradient(90deg, #222, #333);
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        tbody tr:nth-child(even) {
+            background: linear-gradient(90deg, #1a1a1a, #2a2a2a);
+        }
+
+        tbody tr:hover {
+            transform: scale(1.05);
+            background: linear-gradient(90deg, #444, #555);
+            color: #ffeb3b;
+        }
+
+        tbody td {
+            padding: 12px 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Gotham Student League 🦇</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>School</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Siddartha</td>
+                <td>14th</td>
+                <td>Pondicherry University</td>
+            </tr>
+            <tr>
+                <td>Poshya</td>
+                <td>7th</td>
+                <td>Bhashyam</td>
+            </tr>
+            <tr>
+                <td>Yogavalli</td>
+                <td>15th</td>
+                <td>PES University</td>
+            </tr>
+            <tr>
+                <td>Rithvik Sai</td>
+                <td>14th</td>
+                <td>St. John's Engineering College</td>
+            </tr>
+
+            <tr>
+
+                <td colspan="3">“It’s not who I am underneath, but what I do that defines me.”</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
