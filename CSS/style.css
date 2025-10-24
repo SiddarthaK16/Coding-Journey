@@ -1,0 +1,66 @@
+h1 {
+    color: white;
+    background-color: rgb(87, 11, 11);
+    text-align: center;
+    text-decoration: pink wavy underline;
+    /*also exist overline cutthrough and manymore*/
+}
+
+h2 {
+    color: #43a123;
+    /*hex system*/
+    /* text-align: left; */
+    text-align: start;
+    /*same as right*/
+}
+
+p {
+    color: crimson;
+    text-align: right;
+    /*it makes text aligned from the side we want */
+    font-size: 16px;  /*size of font*/
+    line-height: 20px;  /*height of a line*/
+    text-transform:capitalize; /*to make text upper , lower and many more*/
+}
+
+button {
+    color: rgb(100, 25, 234);
+    /*rgb is red green blue which are basic colours and their equal mix gives us white and (shade of red,green,blue) respectively from 0-255 */
+    background-color: gray;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#Cheeeky {
+    color: rebeccapurple;
+
+}
+
+/*  *{
+       color: black;  is called uinversal selector it applies to all document
+   } 
+       
+   */
+
+.myClass {
+    color: darkcyan;
+}
+
+a {
+    text-decoration: none;
+}
+
+#h1 {
+    font-weight: bolder;
+}
+
+#h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Type of  font , here the many fonts style tells if 1st one isnt available on my broswer use 2nd and in the same way subsequently*/
+
+
+/*1 inch=2.54cm=96 pixels*/
