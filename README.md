@@ -13,6 +13,10 @@ C++/ – Practice code, snippets, and experiments
 
 HTML - Exploring the start and literally making baby steps towards web page designing
 
+CSS - Styling my pages , my way.
+
+JavaScript - Building the logic of the website like a boss.
+
 (Future additions: other languages, projects)
 
 ⚡ How I Use This Repo
@@ -30,6 +34,8 @@ Python – for scripts, automation, and data experiments
 C – for basic programming practice, logic, and system understanding
 
 C++ – for object-oriented programming, DSA, and advanced exercises
+
+Frontend stack - HTML , CSS , JavaScript
 
 
 🔲 Advanced projects / multi-language integration
