@@ -1,0 +1,92 @@
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    position: static;
+    /*no props apply*/
+
+
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    position: relative;
+    /*here props apply acc to it's own relative position*/
+    top: 20px;
+    right: 50px;
+    z-index: 2;
+
+
+}
+
+#lol {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    /*here props apply acc to it's own relative position*/
+    top: 20px;
+    right: 200px;
+    z-index: 10;
+    /* z-index works only on positioned elements (relative, absolute, fixed, sticky).
+   It has no effect on position: static elements.
+   Higher z-index appears on top only when elements overlap. */
+
+
+}
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    background-color: darkslategray;
+    position: absolute;
+    /*relative with closest parent tag i.e body in this case*..goes away when scrolled*/
+    bottom: 10px;
+    right: 20px;
+    /* position: absolute removes the element from normal document flow,
+   so it no longer occupies space on the page.
+   Other elements ignore it and move up, causing overlap. */
+
+}
+
+#box4 {
+    height: 200px;
+    width: 200px;
+    background-color: rosybrown;
+    position: fixed;
+    /*relative to browser..remains when scrolled.. remaining all same as absolute*/
+    bottom: 10px;
+    left: 20px;
+}
+
+
+#box5 {
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    position: sticky;
+    top: 0;
+    right: 20px;
+
+
+
+    /* position: sticky behaves like relative until a scroll threshold,
+   then sticks like fixed within its parent container. */
+
+
+
+}
+
+
+#box6 {
+    height: 200px;
+    width: 200px;
+    background-color: saddlebrown;
+}
+
+
+div {
+    display: inline-block;
+}

@@ -1,56 +1,22 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+#box1 {
+
+    height: 100px;
+    width: 120px;
+    background-color: aquamarine;
+    font-size: 40px;
 }
 
-.song {
-    min-height: 100vh;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("https://media.istockphoto.com/id/623209324/photo/santa-claus-riding-on-sleigh-with-gift-box.jpg?s=612x612&w=0&k=20&c=wRY6KbjvFE-LuO7nPQYIQKmashBNNEw-X11kmO3KltI=");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
+#box2 {
+    text-align: center;
+    /* height: 120%; */
+    width: 110%;
+    /*it is relative width wrt its parent's width i.e box 1's*/
+    margin-left: 30%;
+    background-color: blueviolet;
+    font-size: 0.5em;
+    /*em is related to font size and font related props*/
+    width: 5rem;
+    /*rem is root em which is relative to root i.e outermost part of text in your html tag*/
+    height: 10vh;
+    /*vh is %of height of browser default and vw is %of width of browser default*/
 }
-
-.song pre {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/*learning part*/
-
-#jingle {
-    color: brown;
-    text-decoration: underline wavy;
-    background-color: chartreuse;
-    width: 200px;
-    height: 200px;
-    border-width: 2px;
-    border-style: dashed;
-    /*same border 3 props can be written as border: 5px dashed blueviolet (short hand for border props)*/
-    border-color: blueviolet;
-    text-align: right;
-    /*aligns in center of the box designated.. not whole website*/
-    border-radius: 10px;
-    /*50% for a perfect circle*/
-
-    /*padding top right bottom left(clockwise) is the shorthand*/
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-
-    margin: 50px 20px 10px 50px;
-}
-
-
-
-/*  url(../../../CSS box model.png) */
