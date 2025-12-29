@@ -1,0 +1,41 @@
+
+
+
+
+#navbar {
+    align-items: center;
+    background-color: #0f1111;
+    height: 60px;
+    
+}
+
+#logo {
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#account {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#cart {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#contact {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#search-btn {
+    background-color: #f08804;
+    color: white;
+}

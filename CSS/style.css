@@ -1,66 +1,56 @@
-h1 {
-    color: white;
-    background-color: rgb(87, 11, 11);
-    text-align: center;
-    text-decoration: pink wavy underline;
-    /*also exist overline cutthrough and manymore*/
-}
-
-h2 {
-    color: #43a123;
-    /*hex system*/
-    /* text-align: left; */
-    text-align: start;
-    /*same as right*/
-}
-
-p {
-    color: crimson;
-    text-align: right;
-    /*it makes text aligned from the side we want */
-    font-size: 16px;  /*size of font*/
-    line-height: 20px;  /*height of a line*/
-    text-transform:capitalize; /*to make text upper , lower and many more*/
-}
-
-button {
-    color: rgb(100, 25, 234);
-    /*rgb is red green blue which are basic colours and their equal mix gives us white and (shade of red,green,blue) respectively from 0-255 */
-    background-color: gray;
-}
-
 body {
-    background-color: burlywood;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#Cheeeky {
-    color: rebeccapurple;
+.song {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://media.istockphoto.com/id/623209324/photo/santa-claus-riding-on-sleigh-with-gift-box.jpg?s=612x612&w=0&k=20&c=wRY6KbjvFE-LuO7nPQYIQKmashBNNEw-X11kmO3KltI=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
 
-/*  *{
-       color: black;  is called uinversal selector it applies to all document
-   } 
-       
-   */
-
-.myClass {
-    color: darkcyan;
+.song pre {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-a {
-    text-decoration: none;
+/*learning part*/
+
+#jingle {
+    color: brown;
+    text-decoration: underline wavy;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    /*same border 3 props can be written as border: 5px dashed blueviolet (short hand for border props)*/
+    border-color: blueviolet;
+    text-align: right;
+    /*aligns in center of the box designated.. not whole website*/
+    border-radius: 10px;
+    /*50% for a perfect circle*/
+
+    /*padding top right bottom left(clockwise) is the shorthand*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    margin: 50px 20px 10px 50px;
 }
 
-#h1 {
-    font-weight: bolder;
-}
-
-#h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*Type of  font , here the many fonts style tells if 1st one isnt available on my broswer use 2nd and in the same way subsequently*/
 
 
-/*1 inch=2.54cm=96 pixels*/
+/*  url(../../../CSS box model.png) */

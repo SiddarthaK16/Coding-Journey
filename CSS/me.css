@@ -1,0 +1,29 @@
+#dabba1 {
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;    /*inline we cannot use padding and margin from top and bottom*/
+    
+
+}
+
+#dabba2 {
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: center;
+    display: none;     /*tht box goes boom and also no place is left for it... jadd see gayab*/
+}
+
+#dabba3 {
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;
+    visibility: hidden;   /*box goes but its place stays reserved*/
+}
