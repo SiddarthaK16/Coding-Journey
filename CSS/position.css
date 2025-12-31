@@ -90,3 +90,17 @@
 div {
     display: inline-block;
 }
+
+#timepass {
+    background-image: url(random_gali.jpg);
+    background-size: cover;
+    /* background-size: auto;
+   Uses the image’s original size (default behavior). */
+
+    /* background-size: cover;
+   Scales the image to cover the entire element; may crop parts. */
+
+    /* background-size: contain;
+   Scales the image to fit fully inside the element; no cropping, may leave space. */
+
+}
